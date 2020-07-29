@@ -1,0 +1,53 @@
+/* 
+	The Central Perk Menu Styles Sheet
+    Filename: menu.css
+    
+    Author: Erin Ryan & Nick Riley  
+    Date: 7-24-2020
+ */
+ #menu,
+ #favs {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+ }
+ #menu {
+   text-align: center;
+ }
+ #menu h1,
+ #menu h2,
+ #menu h3,
+ #menu h4 {
+    text-decoration: underline;
+    text-decoration-color: #005933;
+    padding: 0.5em;
+ }
+ .choices-list {
+     display: block;
+     float: left;
+     cursor: pointer;
+ }
+ .choices-list li,
+ .bake li,
+ .deli li,
+ .coffee li {
+    padding: .5em .5em .5em .5em;
+ 
+ }
+ /* .coffee li {
+    padding-right: 0;
+ } */
+ .bake,
+ .deli,
+ .coffee {
+    float: left;
+    /* text-align: center; */
+ }
+ .fav-img img,
+ #menu img {
+   border-radius: 5px;
+ }
+ .fav-img {
+    float: right;
+ }

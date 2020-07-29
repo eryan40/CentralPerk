@@ -1,0 +1,125 @@
+﻿/* 
+	The Central Perk Styles Sheet
+    Filename: order.css
+    
+    Author: Erin Ryan & Nick Riley  
+    Date: 7-24-2020
+ */
+
+/* form styles */
+form {
+	padding: 10px;
+}
+
+/* fieldset styles */
+fieldset {
+	margin-top: 1em;
+	padding: 0.8em;
+	border-color: #7a7a7a;
+	border-style: groove;
+	border-width: 2px;
+}
+fieldset fieldset {
+	margin-top: 1em;
+	padding: 0.8em;
+	border: 1px solid #7a7a7a;
+}
+legend {
+	font-size: 1.25em;
+}
+.bold{
+	font-weight: bold;
+}
+span {
+	font-size: 12px;
+}
+select {
+	margin-bottom: 0.6em;
+}
+.contactinfo input {
+	position: absolute;
+	left: 5em;
+	padding: .33%;
+	border: 1px solid #7a7a7a;
+	border-radius: 3px;
+}
+
+#nameinput, #emailinput {
+	width: 25em;
+}
+#phoneinput {
+	width: 12em;
+}
+#zipinput {
+	width: 6em;
+}
+.drinks input, .food input {
+	width: 2em;
+}
+
+#submit, #reset {
+	border: none;
+	padding: 0.4em 0.6em;
+	background-color: #005933;
+	color: #F7E7C5;
+	font-size: 1.25em;
+	border-radius: 10px;
+	width: 20%;
+}
+#submit {
+	float: right;
+}
+#submit:hover, #reset:hover {
+	background-color: #E03325;
+   -webkit-transform: scale(1.2);
+   transform: scale(1.2);
+   -webkit-transition-duration: 0.2s;
+   transition-duration: 0.2s;
+   -webkit-transition-timing-function: ease-in;
+}
+
+/* label styles */
+label {
+	font-size: 1em;
+	line-height: 1.6em;
+}
+.contactinfo label {
+	display: block;
+	position: relative;
+	margin: 0.8px;
+}
+.time label {
+	display: none;
+	position: absolute;
+	left: -10000em;
+}
+.time input {
+	padding: .30%;
+	border: 1px solid #7a7a7a;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+input, textarea {
+	border: 1px solid #7a7a7a;
+	border-radius: 3px;
+}
+
+/* ORDER TABLES */
+.table {
+	margin: 1px 0;
+	display: table;
+}
+.row {
+	display: table-row;
+}
+.row div {
+	display: table-cell;
+	padding: 0.25em 0.5em;
+}
+.row .c2 {
+	padding-left: 2em;
+}
+
+/*ORDER FORM END*/
